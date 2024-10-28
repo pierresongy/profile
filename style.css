@@ -55,8 +55,8 @@ ul {
   display: inline-block;
   padding: 0px 20px;
   list-style: none;
-  padding-left: 0px;
-  width: 32px;
+  padding-right: 20px;
+  width: 24px;
   padding-inline-start: none;
 }
 
@@ -79,10 +79,15 @@ ul {
 
 .square-btn {
   font-size: 40px;
+  text-align: center;
 }
 
 .square-btn:hover {
   color: #387478;
+}
+
+#text-big {
+  font-size: 17px;
 }
 
 @media (max-width: 960px) {
