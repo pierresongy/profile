@@ -4,7 +4,8 @@
 body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
-  background-color: #F7F9FC;
+  background-image: url("images/cool-background.png");
+  background-color: #E2F1E7;
   color: #243642;
   font-size: 17px;
   font-weight: lighter;
@@ -44,7 +45,7 @@ ul {
 
 .card {
   background: white;                         /* White background */
-  padding: 30px;                             /* Internal space */
+  padding: 20px;                             /* Internal space */
   border-radius: 4px;                        /* Small radius */
   box-shadow: 0 10px 30px rgba(0,0,0,.1);
   margin: 20px 0px;
@@ -86,8 +87,16 @@ ul {
   color: #387478;
 }
 
-#text-big {
+#text-big > li {
   font-size: 17px;
+  display: inline-block;
+  list-style: none;
+  padding-inline-start: none;
+}
+
+#word-big:hover {
+  font-size: 17px;
+  font-weight: bold;
 }
 
 @media (max-width: 960px) {
